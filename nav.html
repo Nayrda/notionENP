@@ -5,16 +5,14 @@
 
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-  <!-- https://fontawesome.com/icons -->
+  	<!-- https://fontawesome.com/icons -->
   
 	<!-- Google Font -->
-
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
 
 	<!-------->
-
 	<style>
 		* {
 			margin: 0;
@@ -56,6 +54,7 @@
 		<a id="home" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-house"></i> ENP</a>
 		<a id="clases" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-graduation-cap"></i> Clases</a>
 		<a id="diario" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-book"></i> Diario</a>
+		<!--
 		<a id="projects" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-briefcase"></i> Projects</a>
 		<a id="tasks" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-list-check"></i> Tasks</a>
 		<a id="business" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-money-bill-wave"></i> Business</a>
@@ -64,7 +63,8 @@
 		<a id="notes" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-book"></i> Notes</a>
 		<a id="media" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-bookmark"></i> Media</a>
 		<a id="resourses" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-wrench"></i> Resourses</a>
-		<a id="lifewiki" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-heart"></i> Lifewiki</a>
+		<a id="lifewiki" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-heart"></i> Lifewiki</a> 
+		-->
 	</nav>
 	<script>
 
@@ -77,11 +77,11 @@
 		function navigate(id) {
 
 			if (id == 'home')
-				window.open("https://www.notion.so/nayrda/ENP-XL-8aee3a6403944f18ba5fb1f109b433eb?pvs=4").focus();
+				window.open("https://www.notion.so/nayrda/ENP-XL-8aee3a6403944f18ba5fb1f109b433eb?pvs=4", '_blank').focus();
 			else if (id == "clases")
-				window.open("https://www.notion.so/nayrda/a3c0f3b38edd44958c9bc2be9dddb4b3?v=8381e0bfd19e4a8293122635a60399e4&pvs=4").focus();
+				window.open("https://www.notion.so/nayrda/a3c0f3b38edd44958c9bc2be9dddb4b3?v=8381e0bfd19e4a8293122635a60399e4&pvs=4", '_blank').focus();
 			else if (id == "diario")
-				window.open("https://www.notion.so/nayrda/572eb126dfb14bf0a4f7d18d3a54a8c3?v=8727cea106f44ca2946baf217a382e95&pvs=4").focus();
+				window.open("https://www.notion.so/nayrda/572eb126dfb14bf0a4f7d18d3a54a8c3?v=8727cea106f44ca2946baf217a382e95&pvs=4", '_blank').focus();
 			else if (id == "month")
 				window.open("https://example.com", '_blank').focus();
 			else if (id == "projects")
